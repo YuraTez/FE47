@@ -1,0 +1,25 @@
+img{
+  width: 340px;
+  height: 400px;
+}
+
+.first-img{
+  width: 150px;
+  height: 50px;
+}
+
+.nav-list__el{
+  /*display: block;*/
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-list__el a{
+  color: #7e1f1f;
+}
+
+.some-block__item{
+  width: 300px;
+  display: inline-block;
+  background: wheat;
+}
