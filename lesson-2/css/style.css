@@ -1,0 +1,51 @@
+li{
+  color: aqua;
+}
+
+.list .list__item{
+  color: deeppink;
+}
+
+.list__item.list__item-test{
+  color: #000000;
+}
+
+.list__item-test{
+  color:blue;
+}
+
+.list__item{
+  color: orange;
+}
+
+#item-red{
+  color: red !important;
+}
+
+.list-style-test-2{
+  color: brown !important;
+}
+
+
+
+
+
+#silver{
+  color: silver;
+}
+
+.list-new__item-red{
+  color: red;
+}
+
+.list-new__item{
+  color: green;
+}
+
+.list-new .list-new__item.list-new__item-red{
+  color: black;
+}
+
+
+
+
