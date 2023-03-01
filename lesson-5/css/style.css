@@ -22,12 +22,13 @@
  /* justify-content: space-between;*/
   flex-wrap: wrap;
   /*border: 2px solid darkred;*/
-  margin: 0 -15px;
+  gap: 30px;
 }
 
 .flex-block-link{
-  width: 33.3%;
-  padding: 15px;
+  /*width: 33.3%;
+  width: calc(33.3% - 20px);*/
+  width: 370px;
  /* margin-top: 30px;*/
 }
 
