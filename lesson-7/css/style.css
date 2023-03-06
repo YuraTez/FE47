@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.awesome-item{
+  display: flex;
+  gap: 20px;
+}
+
+.awesome-item__item{
+  width: 200px;
+  height: 200px;
+  background: #7e1f1f;
+}
+
+.awesome-item__item--blue{
+  background: blue;
+}
+
+.img-container{
+  display: flex;
+  gap: 20px;
+  padding: 100px 0;
+}
+
+.img-container__el{
+  position: relative;
+}
+
+.img-container__el:before{
+  position: absolute;
+  content: url("../assets/img/Vector.svg");
+  top: -50px;
+}
+
+.img-container__el img{
+  width: 300px;
+  height: 300px;
+}
+
+.img-container__el svg{
+  fill: blue;
+  transition: .3s;
+  stroke: #86878b;
+  stroke-width: 4px;
+}
+
+.img-container__el svg:hover{
+  fill: black;
+  cursor: pointer;
+  width: 40px;
+  height: 70px;
+  stroke: red;
+}
+
+.font-container__item{
+  font-size: 40px;
+  color: red;
+  transition: .3s;
+}
+
+
+.font-container__item:hover{
+  font-size: 40px;
+  color: silver;
+}
+
+.shadow{
+  display: flex;
+  gap: 50px;
+  padding: 100px 0;
+}
+
+.shadow__item{
+  width: 200px;
+  height: 300px;
+  border: 1px solid silver;
+}
+
+.shadow__item{
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.shadow__item--inset{
+  box-shadow: inset 0px 0px 30px -3px black;
+}
+
+.shadow__item:hover{
+  box-shadow: 0px 0px 30px -3px black;
+}
+
+.footer{
+  background: black;
+  padding: 20px 0;
+}
+
+.footer-link-list{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.footer-link-list__item{
+  transition: .3s;
+}
+
+.footer-link-list__item--rotate:hover{
+  transform: rotate(90deg);
+}
+
+.footer-link-list__item--scale{
+  transform: scale(1);
+}
+
+.footer-link-list__item--scale:hover{
+  transform: scale(1.2);
+}
+
+.footer-link-list__item--skew {
+  transform: skew(-16deg , -1deg);
+}
+
+.burger{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.burger span{
+  width: 100%;
+  height: 2px;
+  background: coral;
+  transition: .3s;
+}
+
+.burger:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: coral;
+  transition: .3s;
+}
+
+.burger:after{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: coral;
+  transition: .3s;
+}
+
+.burger:hover:after {
+  width: 0;
+}
+
+.burger:hover:before {
+  transform: rotate(45deg);
+  top: 11px
+}
+
+.burger:hover span {
+  transform: rotate(-45deg);
+}
