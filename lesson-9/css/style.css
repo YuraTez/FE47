@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+}
+
+html{
+  font-size: 20px;
+}
+
+.wrapper{
+  max-width: 1200px;
+  padding: 100px 15px;
+  margin: 100px auto 0;
+}
+
+ul{
+  font-size: 1.1em;
+}
+
+h1{
+  font-size: 2rem;
+}
+
+li{
+  font-size: 2rem;
+}
+
+.btn{
+  font-size: 32px;
+  padding: 16px 32px ;
+  border: 2px solid coral;
+}
+
+.btn-new{
+  font-size: 1em;
+  padding: 1em 2em;
+  border: 0.2em solid coral;
+}
+
+.btn-new{
+  font-size: 32px;
+}
+
+.main{
+  width: 100vw;
+  height: 100vh;
+  background: #7e1f1f;
+}
+
+
+
+@media (max-width: 1024px) {
+  html{
+    font-size: 10px;
+  }
+}
