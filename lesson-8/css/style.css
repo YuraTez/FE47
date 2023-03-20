@@ -135,9 +135,46 @@ input[type="range"]{
 }
 
 
+
+.form-group .label-user-name{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  font-size: 14px;
+  color: white;
+  transition: .3s;
+}
+
+.input-label:focus + .label-user-name{
+  font-size: 10px;
+  top: 0;
+}
+
+.input-label:not(:placeholder-shown) + label{
+  font-size: 10px;
+  top: 0;
+}
+
 /*
 input{
   background: white;
   border: none;
   border-bottom: 1px solid silver;
 }*/
+/*
+
+
+*/
+
+
+.wrapper-button{
+  width: 200px;
+  padding: 20px;
+  background: red;
+  margin: 20px;
+}
+
+.button{
+ color: white;
+  background: black;
+}

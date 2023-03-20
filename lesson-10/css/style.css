@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style-type: none;
+}
+
+.wrapper{
+  max-width: 1200px;
+  padding: 100px 15px;
+  margin: 100px auto 0;
+}
+
+.bg{
+  width: 100%;
+  height: 400px;
+  border: 1px solid coral;
+ /* background: url("../img/Vector.svg") no-repeat center/contain;*/
+ /* background: url("../img/Vector.svg") no-repeat center/cover;*/
+  background: url("../img/Vector.svg") no-repeat center/contain,
+  url("../img/Vector.svg") no-repeat top left,
+  url("https://www.desicomments.com/wp-content/uploads/2017/01/Nature-Pic.jpg") no-repeat center/cover;
+
+  /*background-image: url("../img/Vector.svg");
+  background-color: greenyellow;*/
+/*  background-repeat: repeat-y;*/
+ /* background-position: 90% center;*/
+  /*background-position: 20px 100px;*/
+  /*background-size: contain;*/ /*cover*/
+}
+
+.object-fit{
+  display: flex;
+  gap: 30px;
+}
+
+.object-fit__item{
+  width: calc(33.3% - 30px);
+  height: 300px;
+  border: 2px solid coral;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.object-fit__item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /*object-fit: contain;*/
+  transition: 0.3s;
+}
+
+.object-fit__item:hover img{
+  transform: scale(1.2);
+}
