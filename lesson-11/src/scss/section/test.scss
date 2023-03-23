@@ -1,0 +1,48 @@
+/*.list{
+  display: flex;
+
+  .list-item{
+    margin-left: 10px;
+
+    a{
+      font-size: 18px;
+      color: blue;
+    }
+  }
+}*/
+
+/*
+.list{
+  display: flex;
+
+  &-item{
+    margin-left: 10px;
+
+    &.red{
+      a{
+        background: red;
+      }
+    }
+
+    a{
+      font-size: 18px;
+      color: blue;
+      transition: .3s;
+      padding: 5px;
+      background: coral;
+
+      &:hover{
+        background: greenyellow;
+      }
+
+      &:before{
+        content: "+";
+      }
+
+      @media (max-width: 1200px) {
+        background: #7e1f1f;
+        color: white;
+      }
+    }
+  }
+}*/

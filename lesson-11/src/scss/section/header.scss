@@ -1,0 +1,40 @@
+.header{
+  padding: 20px 0;
+  background: $black;
+
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-logo{
+    font-size: $h2;
+    color: $red;
+    transition: .3s;
+
+    &:hover{
+      color: $redHover;
+    }
+  }
+
+  &-nav-list{
+    display: flex;
+    gap: 20px;
+
+    a{
+      font-size: $h3;
+      color: $red;
+      transition: .3s;
+
+      &:hover{
+        color: $redHover;
+      }
+
+      &.btn{
+        @extend %btn
+      }
+    }
+  }
+}
+

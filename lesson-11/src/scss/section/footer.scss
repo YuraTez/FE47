@@ -1,0 +1,11 @@
+.title{
+  position: relative;
+  font-size: $h2;
+  padding: 40px 0;
+  text-align: center;
+
+  &:before{
+    @extend %line
+  }
+
+}
