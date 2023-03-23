@@ -1,0 +1,81 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav-list a.btn {
+  color: #fff;
+  background: coral;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.title:before {
+  content: "";
+  width: 160px;
+  height: 2px;
+  background: coral;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.header {
+  background: #000;
+  padding: 20px 0;
+}
+
+.header-content {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.header-logo {
+  color: #ff4343;
+  font-size: 36px;
+  transition: all .3s;
+}
+
+.header-logo:hover {
+  color: #ff4343cc;
+}
+
+.header-nav-list {
+  gap: 20px;
+  display: flex;
+}
+
+.header-nav-list a {
+  color: #ff4343;
+  font-size: 30px;
+  transition: all .3s;
+}
+
+.header-nav-list a:hover {
+  color: #ff4343cc;
+}
+
+.title {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 36px;
+  position: relative;
+}
+
+/*# sourceMappingURL=index.da533f7e.css.map */
